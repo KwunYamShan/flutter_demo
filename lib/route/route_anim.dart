@@ -18,6 +18,7 @@ class _MainPageState extends State<MainPage>
     with SingleTickerProviderStateMixin {
   @override
   void initState() {
+    print("222222");
     // TODO: implement initState
     super.initState();
     controller =
@@ -53,6 +54,7 @@ class MainPage2 extends StatefulWidget {
 class _MainPage2State extends State<MainPage2> {
   @override
   Widget build(BuildContext context) {
+    print("111111");
     return SlideTransition(
       position: animate,
       child: RawMaterialButton(
